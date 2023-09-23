@@ -23,6 +23,18 @@
       "body": "teste",
       "author": "",
       "id": 4
+    },
+    {
+      "title": "teste",
+      "body": "teste",
+      "author": "João",
+      "id": 5
+    },
+    {
+      "title": "teste2",
+      "body": "teste2",
+      "author": "João",
+      "id": 6
     }
   ]
 }
