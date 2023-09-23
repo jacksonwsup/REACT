@@ -1,9 +1,14 @@
+import { useState } from "react";
+
 export function Home() {
   
-    let title = "Bem-vindo!"; 
+    //let title = "Bem-vindo!"; 
+    //hook - use... useState / Permite fazermos uma várivavel reatica no REACT
+
+    const [title, setTitle] = useState("Bem-vindo!");
 
     function handleClick() {
-        title = "Tchau!"
+        setTitle("Tchau!");
         //alert("Você clicou no botão");
         alert(title);
     }
